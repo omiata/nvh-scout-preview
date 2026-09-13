@@ -1,7 +1,6 @@
 {
-    "sourceRepository":  "omiata/nvh-scout",
-    "sourceCommit":  "97e5e91",
-    "generatedUtc":  "2026-09-11T10:07:31.5562965Z",
-    "note":  "Existing validated web preview; product tree corresponds to the dedicated NVH Scout repository migration commit. Provenance updated after repository migration; artifact itself was not rebuilt by this metadata-only change.",
-    "provenanceUpdatedUtc":  "2026-09-11T17:07:05.8403374Z"
+  "sourceRepository": "omiata/nvh-scout",
+  "sourceRevision": "working-tree",
+  "generatedUtc": "2026-09-13T07:11:59.0450627Z",
+  "note": "Generated from the authorized NVH Scout working tree; source repository remains uncommitted."
 }
