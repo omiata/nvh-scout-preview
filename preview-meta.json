@@ -1,6 +1,6 @@
 {
     "sourceRepository":  "omiata/nvh-scout",
-    "sourceCommit":  "59758649ffaa3a9057344771d5edb65253503548",
-    "generatedUtc":  "2026-09-17T11:34:07.4605791Z",
+    "sourceCommit":  "886edf58afb19bad2a2705643f349b5af3ac2b5b",
+    "generatedUtc":  "2026-09-17T16:25:44.6513007Z",
     "note":  "Generated Sonic Trace preview artifact. Source of truth remains the private nvh-scout repository."
 }
