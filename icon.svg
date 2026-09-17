@@ -1,13 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="104" fill="#FFFFFF"/>
-  <g transform="translate(34 40) scale(0.87)">
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="244" y="64" width="178" height="344" rx="30" stroke="#424A55" stroke-width="22"/>
-      <path d="M44 250 H103 C125 250 139 178 163 178 C183 178 193 250 217 250 H244" stroke="#2FA6F5" stroke-width="24"/>
-      <path d="M163 178 C176 178 188 282 208 282 C224 282 230 250 244 250" stroke="#2FA6F5" stroke-width="24"/>
-    </g>
-    <rect x="288" y="230" width="28" height="94" rx="14" fill="#2FA6F5"/>
-    <rect x="334" y="172" width="28" height="152" rx="14" fill="#2FA6F5"/>
-    <rect x="380" y="210" width="28" height="114" rx="14" fill="#2FA6F5"/>
+
+  <defs>
+    <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3F464D"/>
+      <stop offset="1" stop-color="#474E54"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#29A5EF"/>
+      <stop offset="1" stop-color="#1E9DEA"/>
+    </linearGradient>
+    <linearGradient id="light1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A3D8F7"/>
+      <stop offset="1" stop-color="#8FCFF4"/>
+    </linearGradient>
+    <linearGradient id="light2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ED0F8"/>
+      <stop offset="1" stop-color="#72C3F1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="#FFFFFF"/>
+  <g transform="translate(-18 65) scale(1.11)">
+
+    <rect x="229" y="27" width="176" height="302" rx="31" fill="url(#phone)"/>
+    <rect x="250" y="47" width="135" height="262" rx="15" fill="#FFFFFF"/>
+    <path d="M 50.00 204.00 L 53.28 204.00 L 56.56 203.99 L 59.84 204.00 L 63.14 204.03 L 66.42 204.02 L 69.63 203.85 L 72.71 203.37 L 75.70 202.64 L 78.57 201.62 L 80.89 199.78 L 82.48 197.17 L 83.74 194.39 L 85.45 191.88 L 87.12 189.18 L 89.15 186.85 L 91.86 185.36 L 94.76 184.28 L 97.62 184.46 L 100.56 185.50 L 102.93 187.19 L 104.03 190.05 L 104.98 192.93 L 105.89 195.83 L 106.55 198.84 L 107.34 201.80 L 108.08 204.77 L 108.79 207.76 L 109.60 210.71 L 110.24 213.72 L 111.21 216.61 L 112.18 219.47 L 113.04 222.45 L 114.88 224.86 L 117.61 226.38 L 120.62 226.99 L 123.54 226.11 L 125.98 224.08 L 127.14 221.24 L 127.84 218.27 L 128.90 215.42 L 129.78 212.50 L 130.53 209.53 L 131.05 206.46 L 131.79 203.48 L 132.24 200.39 L 132.98 197.41 L 133.48 194.34 L 134.15 191.34 L 134.76 188.30 L 135.16 185.19 L 135.77 182.16 L 136.33 179.11 L 137.00 176.10 L 137.28 172.94 L 138.06 169.98 L 138.58 166.92 L 139.21 163.89 L 139.85 160.88 L 140.38 157.81 L 141.17 154.86 L 141.94 151.90 L 143.21 149.14 L 144.48 146.39 L 145.62 143.57 L 147.30 140.99 L 149.69 139.34 L 152.80 138.69 L 155.53 138.42 L 158.52 139.20 L 161.14 140.95 L 163.02 143.50 L 164.37 146.24 L 165.68 148.97 L 166.58 151.88 L 167.70 154.70 L 168.77 157.54 L 169.52 160.51 L 170.44 163.41 L 171.48 166.26 L 172.13 169.27 L 173.07 172.16 L 173.93 175.09 L 174.64 178.08 L 175.68 180.93 L 176.31 183.95 L 177.13 186.89 L 177.83 189.88 L 178.59 192.85 L 179.61 195.71 L 180.24 198.73 L 181.21 201.61 L 182.16 204.50 L 183.14 207.38 L 184.06 210.28 L 185.26 213.07 L 186.62 215.77 L 188.27 218.42 L 190.95 220.08 L 193.77 220.72 L 196.58 219.83 L 199.42 218.55 L 201.04 216.03 L 202.43 213.28 L 203.94 210.67 L 205.60 208.07 L 207.48 205.49 L 209.73 203.24 L 212.38 201.52 L 215.09 200.20 L 218.29 200.00 L 221.26 199.26 L 224.41 198.94 L 227.73 199.00 L 231.01 199.02 L 234.28 199.01 L 237.56 198.98 L 240.86 198.98 L 244.10 199.08 L 246.94 200.16" fill="none" stroke="url(#blue)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="265" y="186" width="21" height="58" rx="10.5" fill="url(#blue)"/>
+    <rect x="293" y="154" width="21" height="93" rx="10.5" fill="url(#light1)"/>
+    <rect x="321" y="113" width="22" height="141" rx="11" fill="url(#blue)"/>
+    <rect x="351" y="148" width="20" height="97" rx="10" fill="url(#light2)"/>
+
   </g>
 </svg>
